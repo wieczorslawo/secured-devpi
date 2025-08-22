@@ -1,0 +1,4 @@
+devpi-server>=6.7.0
+devpi-web>=4.1.1
+devpi-client>=6.0.2
+devpi-lockdown>=2.0.0

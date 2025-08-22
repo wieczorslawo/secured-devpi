@@ -1,0 +1,19 @@
+services:
+  devpi:
+    restart: always
+    build: ./devpi
+    expose:
+      - 3141
+    volumes:
+      - server:/devpi/server
+
+  nginx:
+    restart: always
+    build: ./nginx
+    ports:
+      - 80:80
+    volumes_from:
+      - devpi
+
+volumes:
+  server:

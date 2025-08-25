@@ -1,5 +1,4 @@
 FROM python:3.8.14-slim
-MAINTAINER Webrepublic Engineering <tech@webrepublic.com>
 
 # Set environment variables.
 # https://stackoverflow.com/q/59812009

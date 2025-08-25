@@ -1,5 +1,4 @@
 FROM python:3.8.14-slim
-MAINTAINER Webrepublic Engineering <tech@webrepublic.com>
 
 # Update software.
 RUN apt-get update
